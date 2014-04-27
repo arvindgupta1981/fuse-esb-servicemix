@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+
+	<feature name="loginFeature" version="${project.version}">
+		<feature>spring-dm-web</feature>
+		<feature version="${project.version}">daoFeature</feature>
+	</feature>
+	
+	<feature name="daoFeature" version="${project.version}">
+		<feature version="${spring-version}">spring</feature>
+		<bundle>mvn:rd.arvind.fuse/dao/${project.version}</bundle>
+	</feature>
+	
+	<feature name="spring" version="${spring-version}">
+		<bundle>mvn:org.springframework/spring-core/${spring-version}</bundle>
+		<bundle>mvn:org.springframework/spring-context/${spring-version}</bundle>
+	</feature>
+</features>

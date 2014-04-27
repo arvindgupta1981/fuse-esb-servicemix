@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: arvind.login.dao;uses:="arvind.login.model"
+Built-By: arvind Gupta
+Tool: Bnd-0.0.357
+Bundle-Name: dao
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_09
+Bundle-Version: 0.0.1.SNAPSHOT
+Bnd-LastModified: 1398609641640
+Bundle-ManifestVersion: 2
+Import-Package: META-INF.arvind.login.model,arvind.login.dao,arvind.lo
+ gin.model
+Bundle-SymbolicName: dao
+
